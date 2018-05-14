@@ -3,6 +3,7 @@
 .csscomb.json
 gulpfile.js
 package.json
+package-lock.json
 yarn.lock
 yarn-error.log
 .vscode
