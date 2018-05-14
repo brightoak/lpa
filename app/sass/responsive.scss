@@ -1,0 +1,371 @@
+@media screen and (max-width:1360px) {
+  #sharebox{
+    margin-left: -60px;
+  }
+}
+@media screen and (max-width:1200px) {
+  .pb{
+    padding-bottom: 50px;
+  }
+  .home .events{
+    padding: 50px 0;
+  }
+  .meta{
+    > *{
+      margin-right: 18px !important;
+    }
+  }
+}
+@media screen and (max-width:1000px) {
+  .more-articles{
+    .box{
+      width: 100%;
+    }
+  }
+  #sharebox{
+    position: static !important;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    dt{
+      margin-right: 10px;
+    }
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    li{
+      margin-right: 10px;
+    }
+  }
+}
+@media screen and (max-width:850px) {
+  .subscribe-form{
+    flex-direction: column;
+    .label{
+      margin: 0 0 30px;
+    }
+  }
+  .subscribe-section{
+    .wrapper{
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+  .grid4{
+    .author-box{
+      width: 48%;
+    }
+  }
+  .promo{
+    .wrapper{
+      padding-top: 210px;
+    }
+  }
+}
+@media screen and (max-width:768px) {
+  .recent-articles{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .grid3{
+    justify-content: space-between;
+    .article-box{
+      width: 48%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .event{
+    flex-direction: column;
+    .img{
+      width: 100%;
+      min-height: 150px;
+      .photo{
+        margin-top: 30px;
+      }
+      .name{
+        margin-bottom: 30px;
+      }
+    }
+    .text{
+      width: 100%;
+      padding: 35px 20px;
+      border-top: 0;
+      border-bottom: 0;
+      border-left: 1px solid #ededed;
+      border-right: 1px solid #ededed;
+    }
+    .attend{
+      width: auto;
+      border-left: 0;
+      border-top: 1px solid #d8b65a;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-left: 1px solid #ededed;
+      span{
+        padding-right: 35px;
+        background-position: 100% 0;
+        padding-top: 0;
+      }
+      br{
+        display: none;
+      }
+    }
+    .home &{
+      .attend{
+        border-top: 1px solid #d8b65a;
+      }
+    }
+  }
+  .apply-to-join{
+    .wrapper{
+      min-height: 300px;
+    }
+  }
+  .subscribe-section{
+    .set{
+      width: 100%;
+      .field{
+        width: 70%;
+        box-sizing: border-box;
+      }
+      .submit{
+        width: 30%;
+        box-sizing: border-box;
+      }
+    }
+  }
+  #footer{
+    .wrapper{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .enjoy-article{
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+  .post-content{
+    margin-bottom: 0;
+  }
+  .promo-event{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .event-info{
+    justify-content: center;
+    margin-top: -40px;
+    margin-bottom: 25px;
+    .date{
+      margin-right: 20px;
+    }
+    .address{
+      margin-right: 20px;
+    }
+  }
+  .sponsors-list{
+    justify-content: center;
+  }
+  .about-event-author{
+    padding-bottom: 40px;
+    flex-direction: column;
+    .photo{
+      margin: 0 auto 30px;
+    }
+  }
+}
+@media screen and (max-width:500px) {
+  .article-box{
+    margin-bottom: 30px;
+    .grid2 &,
+    .grid3 &{
+      width: 100%;
+    }
+  }
+  .pb{
+    padding-bottom: 20px;
+  }
+  .filters{
+    margin-bottom: 15px;
+  }
+  .promo{
+    margin-bottom: 40px;
+  }
+  .landing-promo{
+    margin-bottom: 0;
+    .text{
+      width: 100%;
+      left: 0;
+      box-sizing: border-box;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    h1{
+      font-size: 60px;
+    }
+    .btns{
+      justify-content: center;
+      flex-direction: column;
+      li{
+        margin-right: 0;
+      }
+    }
+  }
+  .subscribe-section{
+    text-align: center;
+    .set{
+      flex-direction: column;
+      .field{
+        margin: 0 auto 20px;
+        width: 90%;
+        text-align: left;
+      }
+      .submit{
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+  #header{
+    .wrapper{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    &.headroom {
+      will-change: transform;
+      transition: transform 200ms linear;
+      &--pinned{
+        transform: translateY(0%);
+      }
+      &--unpinned{
+        transform: translateY(-100%);
+      }
+    }
+  }
+  #footer{
+    text-align: center;
+    .wrapper{
+      flex-direction: column;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .copyright{
+      p{
+        display: block;
+        margin: 0 0 10px;
+      }
+      dl{
+        margin: 0 0 10px;
+        padding-left: 0;
+        &:before{
+          display: none;
+        }
+      }
+    }
+    .nav{
+      display: block;
+      ul{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .socials{
+        margin: 10px 0 0;
+        li{
+          &:first-child{
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+  .events{
+    padding-bottom: 15px;
+    .btn-holder{
+      padding-top: 10px;
+    }
+  }
+  .event{
+    .text{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  h2{
+    font-size: 55px;
+  }
+  .grid4{
+    .author-box{
+      width: 100%;
+    }
+  }
+  .pagination{
+    padding-bottom: 30px;
+  }
+  .post-body{
+    padding-bottom: 20px;
+  }
+  .more-articles{
+    padding-bottom: 30px;
+  }
+  .post-author{
+    flex-direction: column;
+    align-items: center;
+  }
+  .tags{
+    margin-bottom: 20px;
+  }
+  .enjoy-article{
+    flex-direction: column;
+    align-items: center;
+    .photo{
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .promo-blogpost{
+    h1{
+      font-size: 40px;
+    }
+    .wrapper{
+      padding-top: 150px;
+      min-height: auto;
+    }
+  }
+  .event-content{
+    padding-top: 40px;
+  }
+  .event-info{
+    flex-direction: column;
+    padding-bottom: 0;
+    .date{
+      margin-right: 0;
+    }
+    .address{
+      margin-right: 0;
+    }
+  }
+  #attend-popup{
+    padding: 50px 20px 20px;
+  }
+  #fader{
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width:375px) {
+  .wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width:320px) {
+  .subscribe-section{
+    .field{
+      label{
+        padding-left: 14px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
