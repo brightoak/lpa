@@ -111,6 +111,18 @@ body{
 		padding-bottom:110px;
 	}
 	&-blogpost{
+		position: relative;
+		&:after{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			background: rgba(46,53,60,.8);
+			z-index: 1;
+		}
 		.date{
 			display: block;
 			font-style: normal;
@@ -122,6 +134,7 @@ body{
 		}
 		.wrapper{
 			min-height: 800px;
+			z-index:2;
 		}
 		h1{
 			max-width: 780px;
